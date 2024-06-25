@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    /* background-color: bisque; */
+    width: 80%;
+    margin-left: 10%;
+}
+
+.logo img{
+    width: 140px;
+    height: 140px;
+    /* cursor: pointer; */
+}
+
+.footer-contents{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.socials-contents i{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 20px;
+}
