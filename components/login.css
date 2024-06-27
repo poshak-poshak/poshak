@@ -1,16 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Trebuchet MS', sans-serif;;
-    background-color: whitesmoke;
-}
 
 
 /* Login */
 .login-container{
+    margin: 50px 0;
     max-height: 700px;
     transition: max-height .3s ease;
 }
@@ -59,6 +51,7 @@ body{
 
 /* Signup */
 .signup-container{
+    margin: -50px 0;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
