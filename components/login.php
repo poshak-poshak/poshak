@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <link rel="stylesheet" href="login.css">
+
+    <title>POSHAK | one stop thrift shop</title>
+    <!-- url-icon --><link rel="shortcut icon" href="/POSHAK/logos/3-png.png" type="image/x-icon">
+    <!-- bootstrap icons --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- style.css --><link rel="stylesheet" href="/POSHAK/style.css">
+
+    <!-- login css --><link rel="stylesheet" href="/POSHAK/components/login.css">
+    
 </head>
 <body>
+
+    <!-- login container -->
+
     <div class="login-container" id="login-container">
         <h1>Login</h1>
 
@@ -38,6 +47,9 @@
 
             <label >Email</label><br>
             <input type="email" name="email" required><br><br>
+
+            <label >Phone</label><br>
+            <input type="text" name="phone" required><br><br>
         
             <label >Password</label><br>
             <input type="password" name="signup-password" required><br><br>
@@ -51,6 +63,9 @@
         </form>
         </div>
     </div>
+
+
+    <!-- script -->
 
     <script>
         async function handleSwitch1(){

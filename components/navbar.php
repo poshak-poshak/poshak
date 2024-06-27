@@ -3,23 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>POSHAK | one stop thrift shop</title>
-    <link rel="shortcut icon" href="../logos/3-png.png" type="image/x-icon">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- url-icon --><link rel="shortcut icon" href="/POSHAK/logos/3-png.png" type="image/x-icon">
+    <!-- bootstrap icons --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- style.css --><link rel="stylesheet" href="/POSHAK/style.css">
+
+    <!-- navbar css --><link rel="stylesheet" href="/POSHAK/components/navbar.css">
+
 </head>
 <body>
+    
     <nav>
         <div class="navbar-contents">
             <div class="nav-left-content">
                 <a  href="#" onclick="handleClick()"><i class="bi bi-list" id="burger-menu"></i></a>
                 <a href="#"><i class="bi bi-search " style="font-size: 25px;"></i></a>
             </div>
-            <a href="#" class="logo"><img src="../logos/2-png.png" alt="Poshak Logo"></a>
+            <a href="/POSHAK/index.php" class="logo"><img src="/POSHAK/logos/2-png.png" alt="Poshak Logo"></a>
 
             <div class="nav-right-content">
                 <a href="#" class="cart"><i class="bi bi-cart3"></i></a>
-                <a href="#" class="sign-in"><i class="bi bi-person"></i></a>
+                <a href="/POSHAK/pages/loginPage.php" class="sign-in"><i class="bi bi-person"></i></a>
             </div>
         </div>
         <div class="dropdown-menu" id="dropdown-menu">
@@ -30,6 +35,11 @@
             </div>
         </div>
     </nav>
+
+
+
+    <!-- script -->
+
     <script>
         function handleClick(){
             let value = document.getElementById("burger-menu").className;
@@ -45,3 +55,6 @@
     </script>
 </body>
 </html>
+
+
+
