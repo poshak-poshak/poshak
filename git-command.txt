@@ -1,4 +1,7 @@
 
+normal pushing/ pulling procedure
 
+git fetch
+git checkout satish
 
 																																															
