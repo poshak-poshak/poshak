@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: rgb(18, 133, 133);
+
+ }
+.container{
+    display: flex;
+   justify-content: space-between;   
+   color: #fcfcfc;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px 10px 10px 10px;
+   width: 80%;
+   margin: auto;
+ 
+}
+.col-1{
+  /* padding-left: 20px;     */
+  /* padding-bottom: 20px; */
+  font-size: 15px;
+  /* line-height: 2px; 
+*/
+}
+span b{
+    font-size: 20px;
+}
+.col-1 span, p{
+    margin: 8px;
+}
+.col-1 i{
+    margin-right: 2px;
+}
+.col-1 p{
+    opacity: 0.7;
+}
+.col-2 span, li{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.col-2 li{
+    list-style: none;
+    /* margin: 8px; */
+}
+.col-2 a{
+text-decoration: none;
+color: azure;
+opacity: 0.7;
+transition: 0.5s;
+}
+.col-2 a:hover{
+    opacity: 1;
+}
+.col-3 span, .col-3-icons{
+    margin: 8px;
+}
+.col-3-icons{
+ display: flex;
+ justify-content: space-around;
+ font-size: 18px;
+}
+.col-3 i{
+    color:azure;
+    opacity: 0.7;
+}
+.col-3 i:hover{
+    opacity: 1;
+}
+/* .bi{
+    text-decoration: none;
+    background-color: rgb(76, 243, 201);
+    border-radius: 50%;
+    height: 20px;
+    padding: 10px
+} */
+.footer-bottom{
+    /* padding: px; */
+    background-color: rgb(20, 100, 100);
+    display: flex;
+    justify-content: center;    
+    color: #fcfcfc;
+}
+
