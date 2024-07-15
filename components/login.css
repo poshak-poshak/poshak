@@ -1,0 +1,99 @@
+
+
+/* Login */
+.login-container{
+    margin: 50px 0;
+    max-height: 700px;
+    transition: max-height .3s ease;
+}
+.login-container.hide{
+    max-height: 0;
+    overflow: hidden;
+
+}
+.login-container h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.login-content{
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(202, 227, 227);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.login-content input{
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+#loginbtn{
+    font-size: 20px;
+    background-color: #81cdc6;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+#loginbtn:hover{
+    font-size: 21px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    /* background-color: rgb(202, 227, 227); */
+    color: black;
+}
+
+
+/* Signup */
+.signup-container{
+    margin: -50px 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.signup-container.show{
+    max-height: 700px; /* Adjust this value based on your content's height */
+}
+
+
+.signup-container h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.signup-content{
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(202, 227, 227);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.signup-content input{
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+#signupbtn{
+    font-size: 20px;
+    background-color: #81cdc6;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+#signupbtn:hover{
+    font-size: 21px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    /* background-color: rgb(202, 227, 227); */
+    color: black;
+}
