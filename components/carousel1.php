@@ -30,7 +30,7 @@
         <a class="prev">&#10094;</a>
         <a class="next">&#10095;</a>
     </div>
-    <script src="carousel1.js"></script>
+    <script src="Poshak/components/carousel1.js"></script>
     
 </body>
 </html>
